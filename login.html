@@ -14,17 +14,21 @@
         <a href="#">Join Us</a> |
         <a href="login.html">Log In</a>
     </header>
+
+    <div class="container3">
     <form name="frmUser" method="post" action="login.php" align="center">
         <div class="message"><?php if($message!="") { echo $message; } ?></div>
-        <h3 align="center">Enter Login Details</h3>
+        <h2 align="left">Vul uw Gebruikersnaam en wachtwoord <br> in om gelijk in te loggen in uw eigen account.</h2><br><br>
          Gebruikersnaam:<br>
-         <input type="" name="username" required>
+         <input name="username" required>
          <br>
          Wachtwoord:<br>
-        <input type="password" name="password" required>
+        <input name="password" required>
         <br><br>
         <input class="button" type="submit" name="submit" value="Submit" class="button">
         <input class="button" type="reset">
         </form>
+    </div>
+
 </body>
 </html>

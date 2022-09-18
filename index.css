@@ -209,6 +209,13 @@ body,html {
   .button{
     width: 40%;
   }
+  .container3{
+    width: 50%;
+    border-radius: 9px;
+    
+    margin-left: 25%;
+  }
+
 
   
  
