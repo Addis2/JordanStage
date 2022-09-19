@@ -3,7 +3,7 @@
     session_start();
     $message="";
     if(count($_POST)>0) {
-        $query = "SELECT * FROM `Jordan` WHERE `gebruiksnaam` = '".$_POST["gebruikersnaam"]."' AND `wachtwoord` = '".$_POST["password"]."'";
+        $query = "SELECT * FROM `Jordan` WHERE `1` = '".$_POST["gebruikersnaam"]."' AND `wachtwoord` = '".$_POST["password"]."'";
         $result = mysqli_query($db_connect, $query);
         if(mysqli_num_rows($result) > 0) {
             $row = mysqli_fetch_array($result);
